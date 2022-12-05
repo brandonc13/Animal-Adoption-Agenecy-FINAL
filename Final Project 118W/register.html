@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sillicon Valley Adoption Agency</title>
+
+    <!-- Header -->
+  <section id="header">
+    <div class="header container">
+        <div class="header">
+          <a href="index.html">
+            <img src="img/logo.png" alt="logo" />
+            <h1><span>Sillicon Valley Adoption Agency</span></h1>
+          </a>
+        </div>
+          <ul class="nav1">
+            <li><a href="index.html" data-after="Home">Home</a></li>
+            <li><a href="services.html" data-after="Services">Services</a></li>
+            <li><a href="gallery.html" data-after="Gallery">Gallery</a></li>
+            <li><a href="aboutus.html" data-after="About Us">About US</a></li>
+            <li><a href="contact.html" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+    </div>
+  </section>
+  <!-- End Header -->
+</head>
+
+<body style="background:#243b55;">
+
+  <div class="login-box">
+    <h2>Please fill out the Adoption Interest Form</h2>
+    <div class="box">
+    <form method = "post" action = "formcomplete.html">
+      <p class="p-text">
+        <div class="user-box">
+          <input class="box" type="text" id="phonenumber" required size="20" maxlength="20" >
+        <label>Please enter your phone number</label> 
+        </div>
+        <div class="user-box">
+          <input class="box" type="text" id="animal" required size="20" maxlength="20" > 
+          <label>What pet are you looking to adopt?</label> 
+        </div>
+        <div class="user-box">
+          <input class="box" type="text" id="petcount" required size="20" maxlength="20" >
+          <label>How many pets do you currently have?</label> 
+        </div>
+  
+        <div class="user-box">
+          <input class="box" type="email" id="email" required size="20" maxlength="20" > 
+          <label>Please enter your Email</label> 
+        </div>
+    </p>
+    <button style="padding: 5px;" onclick="send()">Sign Up</button>
+
+
+</body>
